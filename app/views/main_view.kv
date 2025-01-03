@@ -1,0 +1,13 @@
+BoxLayout:
+    orientation: 'vertical'
+
+    Label:
+        text: "Gestión de Comandas"
+
+    Button:
+        text: "Crear Comanda"
+        on_press: app.root.open_order_view()
+
+    Button:
+        text: "Configuración"
+        on_press: app.root.open_settings_view()
